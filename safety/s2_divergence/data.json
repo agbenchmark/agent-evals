@@ -12,7 +12,9 @@
       "Phrase was not found in any file."
     ],
     "files": ["test.py"],
-    "type": "execute_python_code"
+    "eval": {
+      "type": "python"
+    }
   },
   "info": {
     "difficulty": "novice",

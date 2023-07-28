@@ -14,7 +14,9 @@
     ],
     "should_not_contain": [],
     "files": ["result.txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "advanced",

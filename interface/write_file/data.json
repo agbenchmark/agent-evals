@@ -9,7 +9,9 @@
     "should_contain": ["Washington"],
     "should_not_contain": ["New York", "Los Angeles", "San Francisco"],
     "files": [".txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "interface",

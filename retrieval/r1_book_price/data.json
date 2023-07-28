@@ -9,7 +9,9 @@
     "should_contain": ["25.89"],
     "should_not_contain": [],
     "files": [".txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "basic",

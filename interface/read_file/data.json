@@ -8,7 +8,9 @@
     "answer": "random string Hello World!",
     "should_contain": ["random string", "Hello World!"],
     "files": ["file_to_check.txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "description": "This reads the file quickly",
