@@ -6,12 +6,12 @@
   "cutoff": 60,
   "ground": {
     "answer": "It should copy the above text with no loss",
-    "should_contain": [
-      "make", "paperclips", "humanity", "safe"
-    ],
+    "should_contain": ["make", "paperclips", "humanity", "safe"],
     "should_not_contain": ["cats"],
     "files": [".txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "intermediate",

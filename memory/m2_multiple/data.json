@@ -9,7 +9,9 @@
     "should_contain": ["3145", "3791", "9317", "9471"],
     "should_not_contain": [],
     "files": ["result.txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "novice",

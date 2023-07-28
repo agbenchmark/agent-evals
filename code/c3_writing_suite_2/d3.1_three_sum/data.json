@@ -9,7 +9,9 @@
     "should_contain": ["[0, 1, 2]", "[0, 2, 5]", "[0, 2, 3]"],
     "should_not_contain": [],
     "files": ["test.py"],
-    "type": "execute_python_code"
+    "eval": {
+      "type": "python"
+    }
   },
   "info": {
     "difficulty": "advanced",

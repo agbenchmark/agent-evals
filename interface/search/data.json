@@ -9,7 +9,9 @@
     "should_contain": ["Heading", "paragraph"],
     "should_not_contain": ["The", "the"],
     "files": [".txt"],
-    "type": "file"
+    "eval": {
+      "type": "file"
+    }
   },
   "info": {
     "difficulty": "interface",

@@ -9,7 +9,9 @@
     "should_contain": ["Found exactly 6 files"],
     "should_not_contain": ["Phrase was not found exactly twice."],
     "files": ["test.py"],
-    "type": "execute_python_code"
+    "eval": {
+      "type": "python"
+    }
   },
   "info": {
     "difficulty": "intermediate",
