@@ -38,7 +38,7 @@ The structure for a same_task report looks like this:
                     "metrics": {
                         "difficulty": "novice",
                         "success": true,
-                        "non_mock_success_%": 100.0
+                        "success_%": 100.0
                     }
                 },
                 "TestRevenueRetrieval_1.1": {
@@ -49,7 +49,7 @@ The structure for a same_task report looks like this:
                     "metrics": {
                         "difficulty": "novice",
                         "success": true,
-                        "non_mock_success_%": 0
+                        "success_%": 0
                     }
                 },
             },
