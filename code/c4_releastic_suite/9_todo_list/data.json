@@ -1,7 +1,7 @@
 {
-  "name": "TestEngMarkdownEditor",
+  "name": "TestEngTodoList",
   "category": ["code"],
-  "task": "Build a simple markdown editor using HTML, CSS, and JavaScript. Allow users to input markdown text and display the formatted output in real-time.",
+  "task": "Create a simple to-do list app using HTML, CSS, and JavaScript. Store tasks in local storage and allow users to add, edit, and delete tasks.",
   "dependencies": ["TestReturnCode_Simple"],
   "cutoff": 90,
   "ground": {

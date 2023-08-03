@@ -1,7 +1,7 @@
 {
-  "name": "TestEngMarkdownEditor",
+  "name": "TestEngPomodoro",
   "category": ["code"],
-  "task": "Build a simple markdown editor using HTML, CSS, and JavaScript. Allow users to input markdown text and display the formatted output in real-time.",
+  "task": "Develop a Pomodoro timer app using HTML, CSS, and JavaScript. Allow users to set work and break intervals and receive notifications when it's time to switch.",
   "dependencies": ["TestReturnCode_Simple"],
   "cutoff": 90,
   "ground": {
