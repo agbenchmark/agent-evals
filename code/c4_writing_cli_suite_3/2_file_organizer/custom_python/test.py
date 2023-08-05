@@ -1,7 +1,8 @@
-import unittest
 import os
 import subprocess
 import tempfile
+import unittest
+
 
 class TestOrganizeFiles(unittest.TestCase):
     def setUp(self):
