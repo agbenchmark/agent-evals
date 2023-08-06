@@ -1,5 +1,5 @@
 {
-  "name": "TestWritingCLI_Easy",
+  "name": "TestPasswordGenerator_Easy",
   "category": ["code"],
   "task": "Create a random password generator. The password should have between 8 and 16 characters and should contain letters, numbers and symbols. The password should be printed to the console. The entry point will be a python file that can be run this way: python password_generator.py",
   "dependencies": ["TestWriteFile"],
