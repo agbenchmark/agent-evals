@@ -1,12 +1,12 @@
 {
   "name": "TestWriteFile",
   "category": ["interface"],
-  "task": "Write 123abc to a .txt file",
+  "task": "Write the word 'Washington' to a .txt file",
   "dependencies": [],
   "cutoff": 60,
   "ground": {
-    "answer": "123abc",
-    "should_contain": ["123abc"],
+    "answer": "The word 'Washington', printed to a .txt file named anything",
+    "should_contain": ["Washington"],
     "should_not_contain": [],
     "files": [".txt"],
     "eval": {
@@ -15,7 +15,7 @@
   },
   "info": {
     "difficulty": "interface",
-    "description": "Tests the writing to file",
-    "side_effects": ["tests if there is in fact an LLM attached"]
+    "description": "Tests the agents ability to write to a file",
+    "side_effects": [""]
   }
 }
