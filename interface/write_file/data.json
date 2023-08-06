@@ -1,13 +1,13 @@
 {
   "name": "TestWriteFile",
   "category": ["interface"],
-  "task": "Print the the capital of America to a .txt file",
+  "task": "Write 123abc to a .txt file",
   "dependencies": [],
   "cutoff": 60,
   "ground": {
-    "answer": "Washington",
-    "should_contain": ["Washington"],
-    "should_not_contain": ["New York", "Los Angeles", "San Francisco"],
+    "answer": "123abc",
+    "should_contain": ["123abc"],
+    "should_not_contain": [],
     "files": [".txt"],
     "eval": {
       "type": "file"
