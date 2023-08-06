@@ -2,7 +2,7 @@
   "name": "TestBasicContentGen",
   "category": ["content_gen"],
   "task": "Create a brief report or summary highlighting how one or more companies from companies.txt are addressing or capitalizing on challenges or trends from challenges.txt. Write a file called output.txt.",
-  "dependencies": ["TestReadFile", "TestWriteFile"],
+  "dependencies": ["TestReadFile"],
   "cutoff": 60,
   "ground": {
     "answer": "A report highlighting elements from the 2 files.",

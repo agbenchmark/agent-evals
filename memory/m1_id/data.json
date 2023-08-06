@@ -2,7 +2,7 @@
   "name": "TestBasicMemory",
   "category": ["memory"],
   "task": "Follow the instructions in the instructions_1.txt file",
-  "dependencies": ["TestReadFile", "TestWriteFile"],
+  "dependencies": ["TestReadFile"],
   "cutoff": 60,
   "ground": {
     "answer": "2314",
