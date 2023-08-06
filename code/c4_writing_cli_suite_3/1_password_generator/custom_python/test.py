@@ -20,7 +20,10 @@ class TestPasswordGenerator(unittest.TestCase):
         self.assertTrue(any(c.islower() for c in password))
         self.assertTrue(any(c.isupper() for c in password))
         self.assertTrue(any(c.isdigit() for c in password))
-        self.assertTrue(any(c in password_generator.string.punctuation for c in password))
+        self.assertTrue(
+            any(c in password_generator.string.punctuation for c in password)
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

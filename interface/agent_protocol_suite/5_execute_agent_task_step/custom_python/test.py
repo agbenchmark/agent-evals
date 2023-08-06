@@ -2,9 +2,7 @@ import subprocess
 
 
 def call_agent_protocol() -> None:
-    command = (
-        "agent-protocol test --url=http://127.0.0.1:8000 -k test_create_agent_task"
-    )
+    command = "agent-protocol test --url=http://127.0.0.1:8000 -k test_execute_agent_task_step"
     subprocess.run(command, shell=True)
 
 
