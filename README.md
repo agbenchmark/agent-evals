@@ -2,6 +2,8 @@
 
 The goal of this repo is to provide easy challenge creation for test driven development with the Auto-GPT-Benchmarks package. This is essentially a library to craft challenges using a dsl (jsons in this case).
 
+This is the up to date dependency graph: https://sapphire-denys-23.tiiny.site/
+
 ### How to use
 
 Make sure you have the package installed with `pip install agbenchmark`.
