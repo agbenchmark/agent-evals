@@ -1,7 +1,7 @@
 {
   "name": "TestSearch",
   "category": ["interface"],
-  "task": "Open 'https://silennaihin.com/random/plain.html' and paste the text on the page in a .txt file",
+  "task": "Open 'https://silennaihin.com/random/plain.html' and paste all of the text on the page in a .txt file",
   "dependencies": ["TestWriteFile"],
   "cutoff": 60,
   "ground": {
