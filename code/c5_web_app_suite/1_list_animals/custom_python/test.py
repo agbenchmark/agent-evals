@@ -2,6 +2,7 @@ import os
 import time
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,7 +13,14 @@ current_directory = os.path.dirname(current_path)
 file_path = f"file://{current_directory}/animal_list.html"
 
 # Create a new instance of the Chrome driver
-driver = webdriver.Chrome()
+
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--window-size=1024x768")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+driver = webdriver.Chrome(options=chrome_options)
 
 # Navigate to the HTML file
 driver.get(file_path)
