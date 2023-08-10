@@ -1,19 +1,19 @@
 {
   "name": "TestReadFile",
   "category": ["interface"],
-  "task": "Write the string 'random string' before any existing text to the file called file_to_check.txt",
+  "task": "Read the file called file_to_read.txt and write its content to a file called output.txt",
   "dependencies": ["TestWriteFile"],
   "cutoff": 60,
   "ground": {
-    "answer": "random string Hello World!",
-    "should_contain": ["random string", "Hello World!"],
+    "answer": "The content of output.txt should be 'Hello World!'",
+    "should_contain": ["Hello World!"],
     "files": ["file_to_check.txt"],
     "eval": {
       "type": "file"
     }
   },
   "info": {
-    "description": "This reads the file quickly",
+    "description": "Tests the ability for an agent to read a file.",
     "difficulty": "interface",
     "side_effects": [""]
   }
