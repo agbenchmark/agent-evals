@@ -1,9 +1,11 @@
-# mypy: ignore-errors
 import re
 from code import get_ethereum_price
 
+def test_get_ethereum_price() -> None:
+    # Read the Ethereum price from the file
+    with open('output.txt', 'r') as file:
+        eth_price = file.read().strip()
 
-def test_get_ethereum_price(eth_price: str) -> None:
     # Validate that the eth price is all digits
     pattern = r'^\d+$'
     matches = re.match(pattern, eth_price) is not None
@@ -21,12 +23,9 @@ def test_get_ethereum_price(eth_price: str) -> None:
     # Check if the eth price is within $50 of the actual Ethereum price
     assert (
         abs(real_eth_price_value - eth_price_value) <= 50
-    ), f"AssertionError: Ethereum price is not within $50 of the actual Ethereum price (Ethereum price: ${eth_price}, eth price: ${real_eth_price})"
+    ), f"AssertionError: Ethereum price is not within $50 of the actual Ethereum price (Provided price: ${eth_price}, Real price: ${real_eth_price})"
 
     print("Matches")
 
 if __name__ == "__main__":
-
-    eth_price_from_bot = "1850"  # Replace with the actual value from the bot
-    test_get_ethereum_price(eth_price_from_bot)
-
+    test_get_ethereum_price()
