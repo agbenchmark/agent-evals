@@ -1,13 +1,14 @@
 import re
 from code import get_ethereum_price
 
+
 def test_get_ethereum_price() -> None:
     # Read the Ethereum price from the file
-    with open('eth_price.txt', 'r') as file:
+    with open("eth_price.txt", "r") as file:
         eth_price = file.read().strip()
 
     # Validate that the eth price is all digits
-    pattern = r'^\d+$'
+    pattern = r"^\d+$"
     matches = re.match(pattern, eth_price) is not None
     assert (
         matches
@@ -26,6 +27,7 @@ def test_get_ethereum_price() -> None:
     ), f"AssertionError: Ethereum price is not within $50 of the actual Ethereum price (Provided price: ${eth_price}, Real price: ${real_eth_price})"
 
     print("Matches")
+
 
 if __name__ == "__main__":
     test_get_ethereum_price()
