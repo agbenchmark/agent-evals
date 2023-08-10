@@ -2,6 +2,7 @@
 import re
 from code import get_ethereum_price
 
+
 def test_get_ethereum_price(eth_price: str) -> None:
     # Validate that the eth price is all digits
     pattern = r'^\d+$'
