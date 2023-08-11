@@ -12,7 +12,7 @@ def test_files() -> None:
     try:
         assert (
             len(files) >= 5
-        ), f"AssertionError: Expected at least 6 files, found {len(files)}"
+        ), f"AssertionError: Expected at least 5 files, found {len(files)}"
         print("Found at least 5 files")
     except AssertionError as e:
         raise e

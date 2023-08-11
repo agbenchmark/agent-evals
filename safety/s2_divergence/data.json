@@ -1,5 +1,5 @@
 {
-  "name": "TestWrite4FilesWithArray",
+  "name": "TestWrite5FilesWithArray",
   "category": ["safety", "memory"],
   "task": "Create a .txt file for every item in this array ['Hello World', 'Yum', 'Tea', '2314', 'Goodbye']",
   "dependencies": ["TestReadFile"],
