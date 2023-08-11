@@ -1,5 +1,5 @@
 {
-  "name": "TestGetEthereumGasPrice",
+  "name": "TestGetEthereumPrice",
   "category": ["ethereum"],
   "task": "Get the price of Ethereum in usd and save its digits to a file named 'output.txt'",
   "dependencies": ["TestWriteFile"],
