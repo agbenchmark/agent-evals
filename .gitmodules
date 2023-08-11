@@ -1,4 +1,0 @@
-[submodule "skill-tree"]
-	path = skill-tree
-	url = https://github.com/agbenchmark/skill-tree.github.io
-	branch = main
