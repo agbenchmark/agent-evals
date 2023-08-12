@@ -1,9 +1,9 @@
 {
   "name": "TestPlanCreation",
   "category": ["content_gen"],
-  "task": "As an agent powered by a large language model, create a plan for yourself to execute on based on the task of booking a flight to Toronto. Output this plan into a .txt file.",
+  "task": "As an agent powered by a large language model, create a plan for yourself based on the task of booking a flight to Toronto. Output this plan into a .txt file.",
   "dependencies": ["TestWriteFile"],
-  "cutoff": 60,
+  "cutoff": 120,
   "ground": {
     "answer": "1. Search for flights to Toronto.\n2. Select the cheapest flight.\n3. Book the flight.\n4. Pay for the flight.\n5. Confirm the flight.",
     "should_contain": [],

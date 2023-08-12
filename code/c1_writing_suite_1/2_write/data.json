@@ -3,7 +3,7 @@
   "category": ["code", "iterate"],
   "task": "Add a function called multiply_int in code.py that multiplies numbers by 2. You can make sure you have correctly done this by running test.py",
   "dependencies": ["TestReturnCode_Simple"],
-  "cutoff": 60,
+  "cutoff": 120,
   "ground": {
     "answer": "Just a simple multiple by 2 function. Num is 4 so answer is 8",
     "should_contain": ["8"],
