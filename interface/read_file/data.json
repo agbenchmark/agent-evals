@@ -7,7 +7,7 @@
   "ground": {
     "answer": "The content of output.txt should be 'Hello World!'",
     "should_contain": ["Hello World!"],
-    "files": ["file_to_check.txt"],
+    "files": ["output.txt"],
     "eval": {
       "type": "file"
     }
