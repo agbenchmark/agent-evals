@@ -5,7 +5,7 @@
   "dependencies": ["TestPasswordGenerator_Easy"],
   "cutoff": 90,
   "ground": {
-    "answer": "",
+    "answer": "The correct python file is written and organizes the files accordingly",
     "should_contain": [],
     "should_not_contain": [],
     "files": ["test.py"],
