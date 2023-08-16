@@ -15,7 +15,7 @@
   },
   "info": {
     "difficulty": "basic",
-    "description": "Tests ability for the agent to code a file organizer.",
+    "description": "Tests ability for the agent to create a random password generator.",
     "side_effects": []
   }
 }
