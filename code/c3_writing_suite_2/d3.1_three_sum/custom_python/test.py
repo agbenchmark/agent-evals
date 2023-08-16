@@ -1,6 +1,7 @@
 # mypy: ignore-errors
-from code import three_sum
 from typing import List
+
+from test_code import three_sum
 
 
 def test_three_sum(nums: List[int], target: int, expected_result: List[int]) -> None:

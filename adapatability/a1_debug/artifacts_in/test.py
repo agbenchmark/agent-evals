@@ -1,6 +1,7 @@
 # mypy: ignore-errors
-from code import two_sum
 from typing import List
+
+from test_code import two_sum
 
 
 def test_two_sum(nums: List, target: int, expected_result: List[int]) -> None:

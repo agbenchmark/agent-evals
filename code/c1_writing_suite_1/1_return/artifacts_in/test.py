@@ -1,5 +1,5 @@
 # mypy: ignore-errors
-from code import multiply_int
+from test_code import multiply_int
 
 
 def test_multiply_int(num: int, expected_result: int) -> None:
