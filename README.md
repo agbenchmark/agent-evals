@@ -1,5 +1,7 @@
 # This is the official challenge library for https://github.com/Significant-Gravitas/Auto-GPT-Benchmarks
 
+### Currently deprecated. Please refer to https://github.com/Significant-Gravitas/Auto-GPT-Benchmarks for the latest version of the challenges.
+
 The goal of this repo is to provide easy challenge creation for test driven development with the Auto-GPT-Benchmarks package. This is essentially a library to craft challenges using a dsl (jsons in this case).
 
 This is the up to date dependency graph: https://agbenchmark-frontend.vercel.app/
